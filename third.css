@@ -1,0 +1,38 @@
+.third {
+  width: 100vw;
+  padding: 50px 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.sns {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 200px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-brands {
+  font-size: 40px;
+}
+
+.icon > span {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .sns {
+    gap: 50px;
+  }
+  .third {
+    padding: 50px 0;
+  }
+}

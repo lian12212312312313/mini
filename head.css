@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "omyu_pretty";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 로고(이니셜)             Home I-AM Instargram Blog */
+
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  font-family: "omyu_pretty";
+  color: #535c68;
+  padding: 15px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.head {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.box2 {
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.3s;
+}
+.box2:hover {
+  background-color: #535c68;
+  color: white;
+  opacity: 0.8;
+}
